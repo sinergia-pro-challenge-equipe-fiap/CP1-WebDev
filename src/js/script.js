@@ -13,3 +13,19 @@ let variavel3 = null;
 console.log(variavel1);
 console.log(variavel2);
 console.log(variavel3);
+
+// EXERCÍCIO 2
+
+// Declarando as variáveis que serão utilizadas
+let numero1 = 12;
+let numero2 = 8;
+let numero3 = 8;
+
+//Utilizando o operador de diferença, mostrando se a condição é verdadeira ou falsa
+console.log(numero1 !== numero2);
+
+//Utilizando o operador de igualdade, mostrando se a condição é verdadeira ou falsa
+console.log(numero3 == numero2);
+
+//Utilizando o operador de maior ou igual, mostrando se a condição é verdadeira ou falsa
+console.log(numero1 >= numero2);
