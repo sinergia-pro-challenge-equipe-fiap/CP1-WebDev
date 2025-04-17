@@ -88,3 +88,14 @@ if(media >= 6){
 } else{
     console.log("Reprovado com média:", media)
 };
+
+//EXERCICIO 8
+//Declarando a variável texto
+let texto = "Tecnologia é um produto da ciência e da engenharia que envolve um conjunto de instrumentos, métodos e técnicas que visam a resolução de problemas.";
+//Buscando a primeira posição de em
+console.log(texto.indexOf("em"));
+//Buscando a última posição de ão
+console.log(texto.lastIndexOf("ão"));
+//Buscando as palavras ciência e métodos
+console.log(texto.indexOf("ciência"));
+console.log(texto.indexOf("métodos"));
