@@ -49,3 +49,8 @@ switch(true) {
         console.log("Acima do Peso");
         break;
 }
+// EXERCICIO 4
+//Criando a estrutura de repetição for até 50
+for(let i = 0; i<= 50;i++){
+    console.log("O valor é: ", i)
+}
