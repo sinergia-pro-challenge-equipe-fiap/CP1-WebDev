@@ -71,3 +71,20 @@ if(usuarioinserido == usuario && senhainserida == senha){
     alert("Houve falha de autenticação")
 };
 
+//EXERCICIO 6
+//Declarando as variáveis
+let nota1 = 8;
+let nota2 = 7;
+let nota3 = 9;
+let nota4 = 6; 
+let nota5 = 4;
+let nota6 = 10;
+let nota7 = 5;
+let media = (nota1 + nota2 + nota3 + nota4 + nota5 + nota6 + nota7) / 7;
+
+//Criando a estrutura if else
+if(media >= 6){
+    console.log("Aprovado com média:", media)
+} else{
+    console.log("Reprovado com média:", media)
+};
