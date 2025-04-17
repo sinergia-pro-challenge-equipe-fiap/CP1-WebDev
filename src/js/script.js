@@ -54,3 +54,20 @@ switch(true) {
 for(let i = 0; i<= 50;i++){
     console.log("O valor é: ", i)
 }
+// EXERCICIO 5
+//Declarando as variáveis
+let usuario = "Admin";
+let senha = "1234"
+let usuarioinserido = "";
+let senhainserida = "";
+//Criando a estrutura prompt
+usuarioinserido = prompt("Digite o nome de usuário:");
+senhainserida = prompt("Digite a senha: ");
+
+//Fazendo a estrutura if else
+if(usuarioinserido == usuario && senhainserida == senha){
+    alert("Login realizado com sucesso!")
+} else{
+    alert("Houve falha de autenticação")
+};
+
