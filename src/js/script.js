@@ -29,3 +29,23 @@ console.log(numero3 == numero2);
 
 //Utilizando o operador de maior ou igual, mostrando se a condição é verdadeira ou falsa
 console.log(numero1 >= numero2);
+
+// EXERCICIO 3
+
+//Declarando as variáveis
+let peso = 62;
+let altura = 1.73;
+let imc = peso / (altura * altura);
+
+//Criando as condições usando switch case
+switch(true) {
+    case imc < 18.5:
+        console.log("Abaixo do peso");
+        break;
+    case imc >= 18.5 && imc <= 24.9:
+        console.log("Peso ideal");
+        break;
+    case imc > 24.9:
+        console.log("Acima do Peso");
+        break;
+}
