@@ -61,15 +61,15 @@ let senha = "1234"
 let usuarioinserido = "";
 let senhainserida = "";
 //Criando a estrutura prompt
-usuarioinserido = prompt("Digite o nome de usuário:");
-senhainserida = prompt("Digite a senha: ");
+// usuarioinserido = prompt("Digite o nome de usuário:");
+// senhainserida = prompt("Digite a senha: ");
 
-//Fazendo a estrutura if else
-if(usuarioinserido == usuario && senhainserida == senha){
-    alert("Login realizado com sucesso!")
-} else{
-    alert("Houve falha de autenticação")
-};
+// //Fazendo a estrutura if else
+// if(usuarioinserido == usuario && senhainserida == senha){
+//     alert("Login realizado com sucesso!")
+// } else{
+//     alert("Houve falha de autenticação")
+// };
 
 //EXERCICIO 6
 //Declarando as variáveis
@@ -88,6 +88,16 @@ if(media >= 6){
 } else{
     console.log("Reprovado com média:", media)
 };
+
+// EXERCICIO 7 
+
+const conteudo = document.querySelector("#conteudo");
+let nome = "Carlos";
+let idade = 25;
+let curso = "Engenharia de Software";
+conteudo.innerHTML = "O nome é: " + nome;
+conteudo2.innerHTML = "A idade é: " + idade;
+conteudo3.innerHTML = "O curso é: " + curso;
 
 //EXERCICIO 8
 //Declarando a variável texto
