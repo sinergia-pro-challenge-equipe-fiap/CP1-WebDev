@@ -61,15 +61,15 @@ let senha = "1234"
 let usuarioinserido = "";
 let senhainserida = "";
 //Criando a estrutura prompt
-// usuarioinserido = prompt("Digite o nome de usuário:");
-// senhainserida = prompt("Digite a senha: ");
+ usuarioinserido = prompt("Digite o nome de usuário:");
+ senhainserida = prompt("Digite a senha: ");
 
 // //Fazendo a estrutura if else
-// if(usuarioinserido == usuario && senhainserida == senha){
-//     alert("Login realizado com sucesso!")
-// } else{
-//     alert("Houve falha de autenticação")
-// };
+ if(usuarioinserido == usuario && senhainserida == senha){
+     alert("Login realizado com sucesso!")
+ } else{
+     alert("Houve falha de autenticação")
+ };
 
 //EXERCICIO 6
 //Declarando as variáveis
@@ -109,3 +109,11 @@ console.log(texto.lastIndexOf("ão"));
 //Buscando as palavras ciência e métodos
 console.log(texto.indexOf("ciência"));
 console.log(texto.indexOf("métodos"));
+
+//EXERCICIO 9
+//Declarando a variável
+let numero = "12";
+//Convertendo o tipo de variável
+numero = parseFloat(numero);
+//Mostrando o tipo da variável
+console.log(typeof(numero));
